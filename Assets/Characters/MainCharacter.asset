@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 097dd00091c0095428e8ada7098b40dc, type: 3}
+  m_Name: MainCharacter
+  m_EditorClassIdentifier: 
+  myImage: {fileID: -4814996444179279673, guid: a21c617975a80894394b14235e80cfa8,
+    type: 3}
+  missionAble: 1
+  unitName: MyCharacter
+  intelligence: 1
+  strength: 2
+  HP: 3
+  MaxHP: 4
+  dexterity: 5
+  constitution: 6
+  wisdom: 7
+  charisma: 8
+  maxStamina: 9
+  stamina: 10
+  time: 11
+  maxTime: 12
+  entropy: 13
+  passivePrefabs: []
+  CharacterRelation: []
+  CharacterRelationScore: 
+  myAbilities:
+  - {fileID: 11400000, guid: 256f9a811fae9a449a3bc4fa3af6e336, type: 2}
+  - {fileID: 11400000, guid: 5e5c081695bf7b44a8d2a9111a59c3fa, type: 2}
+  storyBaggage: []

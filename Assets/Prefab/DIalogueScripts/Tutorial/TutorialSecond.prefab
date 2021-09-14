@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6474729356969333598
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5060545807529902695}
+  - component: {fileID: 7117856554631326966}
+  m_Layer: 0
+  m_Name: TutorialSecond
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5060545807529902695
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6474729356969333598}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7117856554631326966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6474729356969333598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8157798de796f5429e20d20980d71e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  acceptingInput: 1
+  dialogueLines:
+  - Great you killed all the enemies
+  - we just need to go over to the far right
+  - then we go back home
+  lineNumber: 0
+  dialogueLinesCount: 0
+  afterwardsObliterate: 1
+  dialogueManagerPrefab: {fileID: 3945436411029766629, guid: 0eb0ada5617dcbe47b7fb09c9d2975f2,
+    type: 3}
+  nextLevelDialogue: {fileID: 0}
+  dialogueManager: {fileID: 0}
+  gameManager: {fileID: 0}
+  dialogueLine: 
+  characterName: 
+  dialogueDescription: Dialogue after killed enemy
+  characterImage: {fileID: 0}
+  MyImages: []
+  partyInformation: {fileID: 0}

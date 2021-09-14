@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3484124554156917372
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7244187047710474566}
+  - component: {fileID: 5431756582727951001}
+  m_Layer: 0
+  m_Name: LeaderDialogueFirst
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7244187047710474566
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3484124554156917372}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5431756582727951001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3484124554156917372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f33d3de46cfb0ca44ac7b6761fb0bb9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  acceptingInput: 1
+  dialogueLines:
+  - Nice to see you
+  - While most of the people, the lights aren't on.
+  - We need to explore the immediate area.
+  - There seems to be a console that you can interact with.
+  lineNumber: 0
+  dialogueLinesCount: 0
+  dialogueManagerPrefab: {fileID: 3945436411029766629, guid: 0eb0ada5617dcbe47b7fb09c9d2975f2,
+    type: 3}
+  nextLevelDialogue: {fileID: 0}
+  dialogueManager: {fileID: 0}
+  gameManager: {fileID: 0}
+  dialogueLine: 
+  characterName: 
+  dialogueDescription: Greets player and gives them first mission
+  characterImage: {fileID: 0}
+  MyImages: []
+  partyInformation: {fileID: 0}
+  newTutorialMission: {fileID: 11400000, guid: 261473e64c80aa441ad812d0d1b64647, type: 2}

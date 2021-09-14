@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31317ecc9f4491d449772e3ed9e7daf6, type: 3}
+  m_Name: BasicShot
+  m_EditorClassIdentifier: 
+  isAttack: 1
+  myAbilitySprite: {fileID: 21300000, guid: b786fc949bece6b488069c6f9bd7f458, type: 3}
+  cooldownLeft: 0
+  maxCooldown: 0
+  range: 2
+  timeCost: 2
+  currentCharacter: {fileID: 0}
+  abilityTarget: 3
+  abilityName: Basic Shot
+  shotDamage: 5
